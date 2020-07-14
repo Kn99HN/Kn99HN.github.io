@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head>
+    <title> Khanh Nguyen | CDCL Algorithm </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.72.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="">
+    
+    <link rel="stylesheet" href="/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css">
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="canonical" href="/post/cdcl/">
+    
+    
+    <script type="text/javascript" src="/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        
+        <h3 title=""><a href="/">Khanh Nguyen</a></h3>
+        <div class="description">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://www.linkedin.com/in/khanh-nguyen-4b1393b0/" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://github.com/Kn99HN" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:khanhnguyen99hn@gmail.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Khanh Nguyen 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/post/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/about/" title="">About</a></li>
+        
+        
+        <li><a  href="/resume/resume.pdf" title="">Resume</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>CDCL Algorithm
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Wed, Jun 3, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">7-minute read</span>
+        </div>
+        
+        </div>
+
+    <h1 id="formal-verification">Formal Verification</h1>
+<p>I had the fortunate to carry out an independent study with Dr. Wies about formal verification starting this Spring. I found the field quite interesting. Some might call it &ldquo;glorfied testing&rdquo; but I think there are some interesting aspect to the field.</p>
+<p>Formal verification is about using mathematical proof to verify the correctness of a program. With any program, procedure or function, we can define a &ldquo;contract&rdquo; which must be upheld each time an user use said program.</p>
+<p>By using Hoare logic, which is made up of pre-condition, command and post-condiction, we can express the correctness of a program.</p>
+<h2 id="conflict-driven-clause-learning-cdcl">Conflict Driven Clause Learning (CDCL)</h2>
+<p>CDCL algorithm is one of the most powerful algorithm used to implement some of the fastest SAT solvers out there. It is based on <a href="https://en.wikipedia.org/wiki/DPLL_algorithm">DPLL</a> algorithm, which is another SAT algorithm.</p>
+<p>Both utilize heuristic strategy, which assign randomly a boolean value to each variable in CNF (conjunction normal form) formula. CNF refers to conjuction of disjunction, i.e (x1 || x2) &amp;&amp; (x3 || ~x1).</p>
+<p>Both use the backtracking strategy. In DPLL, the backtracking scheme is to revert back a level and changing the boolean value assigned at that level. For CDCL, the backtracking scheme is more sophisticated. It uses clause learning to aid in the understanding of the backtracking level.</p>
+<h2 id="cdcl-idea">CDCL Idea</h2>
+<p>We assume the input is a CNF formula, which is a set of disjunction.</p>
+<p>Each variable have these properties:</p>
+<ul>
+<li>Name</li>
+<li>Value</li>
+<li>Antecedent (The clause at which the variable is implied)</li>
+</ul>
+<p>A variable can be assigned False, True or Unassigned.</p>
+<p>So, while there are unassigned variable in the formula, we decide to choose a random literal in the clause and also assign it a randomly boolean value.</p>
+<p>We then carry out unit propagation. Unit propagation sounds scarry but I think the concept can be explained as this. But first, let&rsquo;s define what is an unit clause. Unit clause is a disjunction clause such that there exist only one variable that is undefined and the rest is False. Unit propagation, in this case, will find this unit clause if there is one and force assign the undefined literal the appropriate truth value such that the clause become True.</p>
+<p>Carrying out propagation can certainly conflict because we might contradict another clause in the formula. This is where the backtracking kicks in. To do so, we use a graph, specifically called an Implication Graph. It is a acyclic directed graph. The only special thing about it is that the edge now contains the antecedent, i.e the clause at which a node is arrived at. For instance, if we have a clause x1 || x3. We assign x1 to be False. We then, by unit propagation, can conclude that x3 must be True. By doing so, we have a graph with vertices: x1, x3 and edges x1 =&gt; x3 with antecedent is 1.</p>
+<p>We use a dummy node k to indicate if we have arrive at a conflict. If so, we make a cut, which is sometimes called UIP, which leads to the conflict. We then can identify the clause that leads to a contradiction. We then negate the clause and find the appropriate level to &ldquo;backtrack&rdquo;. I called it &ldquo;backtrack&rdquo; because it is not similar to &ldquo;backtracking&rdquo; I think about in algorithm. It&rsquo;s more similar to removing the nodes in the graph that leads to the conflict and changing truth value of the correct literal.</p>
+<p>By repeatedly doing so, we can guarantee that the formula either is SAT or UNSAT by finding if a model exists.</p>
+<h2 id="my-implementation">My implementation</h2>
+<p>I want to write down my implementation in this blog post so that if I go back from the future, I might recognize any mistake and optimize on it.</p>
+<h3 id="step-1-parsing">Step 1: Parsing</h3>
+<p>We first parse the CNF in the file format.</p>
+<p>We store the CNF as a dictionary with the key being the index for the clause. This will make our lives easier in the future when processing them adding to the implication graph.</p>
+<p>The value of the dictionary is a set of literal. For the literal, we will store them as a Node object, which has the following properties:</p>
+<ul>
+<li>Name</li>
+<li>Value</li>
+<li>Decision Level</li>
+<li>Antecedent</li>
+<li>Negation</li>
+</ul>
+<h3 id="step-2-unit-propagation">Step 2: Unit Propagation</h3>
+<p>We now need to create lots of helper function and when I say lots, I mean it.</p>
+<pre><code>decide(formula) 
+</code></pre><p>Take in the formula and deciding for the literal that is not assigned the value False/True.</p>
+<pre><code>update_formula(node, formula)
+</code></pre><p>Since we sometimes decide on a literal but then hasn&rsquo;t update all its occurences in the formula. This function take the node and formula, updating them accordingly.</p>
+<pre><code>has_unassigned(formula)
+</code></pre><p>Check if there are still unassigned variable in the formula.</p>
+<pre><code>check_unit(formula)
+</code></pre><p>Check if there is any unit clause in the formula. If there is, we return the index in the dictionary. If there is a conflict, we would also return the conflict node. Otherwise, return unresolved.</p>
+<pre><code>unit_prop(formula, graph, dl)
+</code></pre><p>Unit Propagation. We first check if there is any unit clause in the formula. While there is an unit clause in the formula, we then update the unassigned literal in the unit clause to be True. We also have a levels dict, keeping track of the literals assigned at each levels. The forced variable, one which we assign True, is then added to the implication graph.</p>
+<h3 id="step-3-analyze-conflict">Step 3: Analyze Conflict</h3>
+<p>Analyze Conflict also requires quite a few helper function. So here are the one we need to define:</p>
+<pre><code>last_assigned_lit(d, levels)
+</code></pre><p>Return the last literal assigned at level d, using levels dict. We then remove it from the list.</p>
+<pre><code>resolve(first, second, value)
+</code></pre><p>Resolving two clauses. The idea is that if x | ~x is in the same clause then they are resolved, meaning their truth value is always True.</p>
+<pre><code>asserting_level(clause)
+</code></pre><p>Once we got the conflict clause, we would need to assert its level. If it is an unary clause then we return 0. Otherwise, we get the second highest level in the clause and it will be the level we need to backtrack to.</p>
+<pre><code>sole_lit_at_level(s,clause,d)
+</code></pre><p>Check if in a clause, if there is a literal which decision level is d. Only one can be in the clause.</p>
+<pre><code>analyze_conflict(formula, graph, conflict_node, levels)
+</code></pre><p>The conflict node will act as our main star here. We get the clause antecedent of the conflict node. while there is no single literal at decision level d, which the conflict node occurs, in the conflicting clause, then we continue. Otherwise, we return the level and the clause we found.</p>
+<h3 id="step-4-backtrack">Step 4: Backtrack</h3>
+<p>Once we have set up all the helper functions. Backtrack should be easy.</p>
+<pre><code>backtrack(formula, graph,dl)
+</code></pre><p>Given the decision level where we need to change. We un-assign all literals whose decision level is above the conflicting decision level. We then also delete all the un-assigned nodes in the graph. For the node at the decision level, we negate its value.</p>
+<h3 id="step-5-putting-it-together---conflict-driven-clause-learning">Step 5: Putting it together - Conflict Driven Clause Learning</h3>
+<pre><code>CDCL(formula)
+</code></pre><p>While the formula containing unassigned literal, we will increment the decision level and decide on the node. Then, while unit propagation leads to conflict, we will analyze conflict and backtrack accordingly.</p>
+<p>Once we are done with the outer most while loop, we return True. If the decision level of the conflict node is less than 0, we return False.</p>
+<h2 id="summary">Summary</h2>
+<p>One of the most trickiest things of the algorithm is consistency. When we parse, we will have both ~x and x. Then we have to keep track of them in the graph as well. Hence, sometimes, the logic can seems like spaghetti code trying to updating all the occurence of a newly assigned literal.</p>
+<p>Additionally, analyzing conflict is quite complicated and I believe not all literatures outline how to implement it. However, the three most important pieces for CDCL implementation is:</p>
+<ul>
+<li>Implication Graph</li>
+<li>Analyze Conflict</li>
+<li>Unit Propagation</li>
+</ul>
+<p>Once you got the three working and a good consistency in your algorithm, you should be able to put it all together.</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+
+</html>
