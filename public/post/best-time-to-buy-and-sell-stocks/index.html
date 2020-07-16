@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Khanh Nguyen | Categories </title>
+    <title> Khanh Nguyen | Best Time to Buy and Sell Stocks </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="">
     
@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="canonical" href="/categories/">
+    <link rel="canonical" href="/post/best-time-to-buy-and-sell-stocks/">
     
     
     <script type="text/javascript" src="/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
@@ -81,11 +81,57 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive animated fadeInDown">
-   
-    <ul class="list-with-title">
-      
-  </div>
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Best Time to Buy and Sell Stocks
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Thu, Jul 16, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">2-minute read</span>
+        </div>
+        
+        </div>
+
+    <p>Since it was so difficult to start leetcode. I think it will be better
+if I document each problem that I solve every day.</p>
+<h1 id="best-time-to-buy-and-sell-stocks">Best Time to Buy and Sell Stocks</h1>
+<h2 id="description">Description</h2>
+<p>Say you have an array for which the ith element is the price of a given stock on day i.</p>
+<p>If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.</p>
+<p>Note that you cannot sell a stock before you buy one.</p>
+<pre><code>Input: [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+             Not 7-1 = 6, as selling price needs to be larger than buying price.
+</code></pre><h2 id="solution">Solution</h2>
+<p>This is deemed as an easy question but I don&rsquo;t really think so when I was doing it
+the first time. I choose a sliding window approach.</p>
+<p>There are a few cases that a max profit can happen. But it boils down to this:</p>
+<ul>
+<li>If the value at the low pointer is greater than one at high pointer then
+clearly it is not a maximum value. Hence, we skip all the values from low
+up to high. If the max value existed between the low and high, it must
+have been founded before.</li>
+<li>Else, we take the difference and compare with max value.</li>
+</ul>
+<p>The value at the end of the while loop is the maximum value.</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
 
                 </div>
             </div>

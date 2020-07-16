@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2020 15:58:47 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2020 13:21:45 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Contain Duplicate</title>
+      <link>/post/contain-duplicate/</link>
+      <pubDate>Thu, 16 Jul 2020 13:21:45 -0400</pubDate>
+      
+      <guid>/post/contain-duplicate/</guid>
+      <description>Contain Duplicates Description Given an array of integers, find if the array contains any duplicates.</description>
+    </item>
+    
+    <item>
+      <title>Best Time to Buy and Sell Stocks</title>
+      <link>/post/best-time-to-buy-and-sell-stocks/</link>
+      <pubDate>Thu, 16 Jul 2020 12:58:39 -0400</pubDate>
+      
+      <guid>/post/best-time-to-buy-and-sell-stocks/</guid>
+      <description>Since it was so difficult to start leetcode. I think it will be better if I document each problem that I solve every day.</description>
+    </item>
     
     <item>
       <title>Getting That Internship</title>
