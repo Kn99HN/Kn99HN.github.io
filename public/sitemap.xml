@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-07-17T22:15:25-04:00</lastmod>
+    <loc>/post/max-subarray/</loc>
+    <lastmod>2020-07-18T21:17:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/product-of-array-except-self/</loc>
-    <lastmod>2020-07-17T22:15:25-04:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2020-07-18T21:17:26-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-07-18T21:17:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/product-of-array-except-self/</loc>
     <lastmod>2020-07-17T22:15:25-04:00</lastmod>
   </url>
   
