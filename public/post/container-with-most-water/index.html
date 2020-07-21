@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Khanh Nguyen | Posts </title>
+    <title> Khanh Nguyen | Container With Most Water </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="">
     
@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="canonical" href="/post/">
+    <link rel="canonical" href="/post/container-with-most-water/">
     
     
     <script type="text/javascript" src="/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
@@ -63,7 +63,7 @@
         <li><a  href="/" title="">Home</a></li>
         
         
-        <li><a class="current" href="/post/" title="">Posts</a></li>
+        <li><a  href="/post/" title="">Posts</a></li>
         
         
         <li><a  href="/about/" title="">About</a></li>
@@ -81,86 +81,46 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive animated fadeInDown">
-   
-    <ul class="list-with-title">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Container With Most Water
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Mon, Jul 20, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">1-minute read</span>
+        </div>
+        
+        </div>
+
+    <h1 id="container-with-most-water">Container With Most Water</h1>
+<h2 id="description">Description</h2>
+<p>Given n non-negative integers a1, a2, &hellip;, an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.</p>
+<p>Note: You may not slant the container and n is at least 2.</p>
+<h2 id="example">Example</h2>
+<pre><code>Input: [1,8,6,2,5,4,8,3,7]
+Output: 49
+</code></pre><h2 id="solution">Solution</h2>
+<p>As we want to find the maximum area of the container with most water, we don&rsquo;t want to have a slanted container.
+Hence, given two values, we choose the smaller value and find the area using the difference between the indices.
+Using this strategy, we have two pointers, low and high. We compare these two values and use the smaller one
+to calculate the area. We then move the pointer of the smaller value until low and high meet.</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
+    
            
-      <div class="listing-title">2020</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="/post/container-with-most-water/" title="Container With Most Water">Container With Most Water</a>
-              <div class="post-time"><span class="date">Jul 20</span></div>
-            </div>
-          </div>
-    </ul>
     
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="/post/max-subarray/" title="Max Subarray">Max Subarray</a>
-              <div class="post-time"><span class="date">Jul 18</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="/post/product-of-array-except-self/" title="Product of Array Except Self">Product of Array Except Self</a>
-              <div class="post-time"><span class="date">Jul 17</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="/post/contain-duplicate/" title="Contain Duplicate">Contain Duplicate</a>
-              <div class="post-time"><span class="date">Jul 16</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="/post/best-time-to-buy-and-sell-stocks/" title="Best Time to Buy and Sell Stocks">Best Time to Buy and Sell Stocks</a>
-              <div class="post-time"><span class="date">Jul 16</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="/post/getting-that-internship/" title="Getting That Internship">Getting That Internship</a>
-              <div class="post-time"><span class="date">Jul 14</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="/post/cdcl/" title="CDCL Algorithm">CDCL Algorithm</a>
-              <div class="post-time"><span class="date">Jun 3</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="/post/summer-plan-2020/" title="Summer Plan 2020">Summer Plan 2020</a>
-              <div class="post-time"><span class="date">Jun 2</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="/post/first/" title="Welcome! This is my first blog">Welcome! This is my first blog</a>
-              <div class="post-time"><span class="date">Jun 1</span></div>
-            </div>
-          </div>
-    </ul>
-    
-    
-  </div>
+</div>
+
 
                 </div>
             </div>
