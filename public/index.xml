@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jul 2020 22:00:27 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2020 21:56:34 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Maximum Product Subarray</title>
+      <link>/post/maximum-product-subarray/</link>
+      <pubDate>Tue, 21 Jul 2020 21:56:34 -0400</pubDate>
+      
+      <guid>/post/maximum-product-subarray/</guid>
+      <description>Maximum Product Subarray Description Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product.</description>
+    </item>
     
     <item>
       <title>Container With Most Water</title>
