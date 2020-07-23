@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2020 21:56:34 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2020 21:06:57 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Find Minimum in Rotated Sorted Array</title>
+      <link>/post/find-minimum-in-rotated-sorted-array/</link>
+      <pubDate>Wed, 22 Jul 2020 21:06:57 -0400</pubDate>
+      
+      <guid>/post/find-minimum-in-rotated-sorted-array/</guid>
+      <description>Find Minimum in Rotated Sorted Array Description Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.</description>
+    </item>
     
     <item>
       <title>Maximum Product Subarray</title>
