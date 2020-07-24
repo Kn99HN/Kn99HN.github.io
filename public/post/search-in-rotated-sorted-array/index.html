@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Khanh Nguyen | Website of Khanh Nguyen </title>
+    <title> Khanh Nguyen | Search in Rotated Sorted Array </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="">
     
@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/post/search-in-rotated-sorted-array/">
     
     
     <script type="text/javascript" src="/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
@@ -60,7 +60,7 @@
         
         
         
-        <li><a class="current" href="/" title="">Home</a></li>
+        <li><a  href="/" title="">Home</a></li>
         
         
         <li><a  href="/post/" title="">Posts</a></li>
@@ -81,67 +81,66 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-  
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/post/summer-plan-2020/">Summer Plan 2020</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>Usually I like to write my To Do on the sticky notes application on Mac.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Tue, Jun 2, 2020</span>
-                 
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Search in Rotated Sorted Array
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Thu, Jul 23, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">2-minute read</span>
         </div>
+        
+        </div>
+
+    <h1 id="search-in-rotated-sorted-array">Search in Rotated Sorted Array</h1>
+<h2 id="description">Description</h2>
+<p>Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.</p>
+<p>(i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).</p>
+<p>You are given a target value to search. If found in the array return its index, otherwise return -1.</p>
+<p>You may assume no duplicate exists in the array.</p>
+<p>Your algorithm&rsquo;s runtime complexity must be in the order of O(log n).</p>
+<pre><code>Input: nums = [4,5,6,7,0,1,2], target = 0
+Output: 4
+</code></pre><pre><code>Input: nums = [4,5,6,7,0,1,2], target = 3
+Output: -1
+</code></pre><h2 id="solution">Solution</h2>
+<p>This is the modified or follow up question from finding minimum in rotated sorted array. No we have one more variant to care about, which is the target value. We then must find the index of the target value.</p>
+<p>The approach, however, can be quite similar. We use two pointers, <code>low</code> and <code>high</code>. We find the middle index, <code>mid</code>.
+We compare these value to each other. There are a two scenarios that can happen:</p>
+<ol>
+<li>The <code>mid</code> value is greater than the <code>low</code> value, meaning that from low to mid, there is an ordered sequence.</li>
+<li>The <code>mid</code> value is smaller than the <code>low</code> value, meaning that from mid to high, there is an ordered sequence.</li>
+</ol>
+<p>However, since we must find the <code>target</code> value, we have a few more scenarios to consider within the first two.</p>
+<p>In scenario 1, we have:</p>
+<ol>
+<li>If <code>target</code> is smaller than the <code>mid</code> value and <code>target</code> is
+greater than the <code>low</code> value, then the <code>target</code> falls into the ordered sequence on the left.</li>
+<li>Otherwise, it must be on the right.</li>
+</ol>
+<p>In scenario 2, we have:</p>
+<ol>
+<li>If <code>target</code> is greater than the <code>mid</code> value and <code>target</code> is smaller than the high value, then the <code>target</code> falls into the ordered sequence on the right.</li>
+<li>Otherwise, it must be on the left.</li>
+</ol>
+<p>At the end of the while loop, we return -1 since the loop ends, indicating no value can be found that is the target.</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
       </div>
     </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/post/first/">Welcome! This is my first blog</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>I&rsquo;ll try to write some blogs on this website though it is for my personal use.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Mon, Jun 1, 2020</span>
-                 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-<div class="pagination">
-  
-<ul class="pagination">
-  <li class="page-item">
-    <a href="/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/">1</a>
-  </li>
-  <li class="page-item active">
-    <a class="page-link" href="/page/2/">2</a>
-  </li>
-  <li class="page-item disabled">
-    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-  </li>
-</ul>
 
-
+    
+           
+    
 </div>
+
 
                 </div>
             </div>
