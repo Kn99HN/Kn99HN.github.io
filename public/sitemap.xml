@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-07-23T21:46:37-04:00</lastmod>
+    <loc>/post/climbing-stairs/</loc>
+    <lastmod>2020-07-25T15:21:33-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/search-in-rotated-sorted-array/</loc>
-    <lastmod>2020-07-23T21:46:37-04:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2020-07-25T15:21:33-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-07-25T15:21:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/three-sum/</loc>
+    <lastmod>2020-07-24T21:40:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/search-in-rotated-sorted-array/</loc>
     <lastmod>2020-07-23T21:46:37-04:00</lastmod>
   </url>
   
