@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jul 2020 15:21:33 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 22:01:30 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>House Robber</title>
+      <link>/post/house-robber/</link>
+      <pubDate>Mon, 27 Jul 2020 22:01:30 -0400</pubDate>
+      
+      <guid>/post/house-robber/</guid>
+      <description>Housr Robber Description You are a professional robber planning to rob houses along a street.</description>
+    </item>
     
     <item>
       <title>Climbing Stairs</title>
