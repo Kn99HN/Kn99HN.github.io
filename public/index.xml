@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2020 22:01:30 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2020 21:43:55 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Longest Common Subsequence</title>
+      <link>/post/longest-common-subsequence/</link>
+      <pubDate>Tue, 28 Jul 2020 21:43:55 -0400</pubDate>
+      
+      <guid>/post/longest-common-subsequence/</guid>
+      <description>Longest Common Subsequence Description Given two strings text1 and text2, return the length of their longest common subsequence.</description>
+    </item>
     
     <item>
       <title>House Robber</title>
