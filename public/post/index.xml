@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2020 21:48:13 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 22:10:27 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Coin Change</title>
+      <link>/post/coin-change/</link>
+      <pubDate>Thu, 30 Jul 2020 22:10:27 -0400</pubDate>
+      
+      <guid>/post/coin-change/</guid>
+      <description>Coin Change Description You are given coins of different denominations and a total amount of money amount.</description>
+    </item>
     
     <item>
       <title>House Robber II</title>
