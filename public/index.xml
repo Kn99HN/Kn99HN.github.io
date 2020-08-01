@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2020 22:10:27 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 09:34:43 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Parse Int</title>
+      <link>/post/parse-int/</link>
+      <pubDate>Sat, 01 Aug 2020 09:34:43 -0400</pubDate>
+      
+      <guid>/post/parse-int/</guid>
+      <description>String to Integer Description Parse a string to an integer not using built in function.</description>
+    </item>
     
     <item>
       <title>Coin Change</title>
