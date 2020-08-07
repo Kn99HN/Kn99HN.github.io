@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2020 21:18:33 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2020 21:48:54 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Combination Sum IV</title>
+      <link>/post/combination-sum-iv/</link>
+      <pubDate>Thu, 06 Aug 2020 21:48:54 -0400</pubDate>
+      
+      <guid>/post/combination-sum-iv/</guid>
+      <description>Combination Sum IV Description Given an integer array with all positive numbers and no duplicates, find the number of possible combinations that add up to a positive integer target.</description>
+    </item>
     
     <item>
       <title>Length of Increasing Sub</title>
