@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Aug 2020 21:48:54 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2020 22:35:40 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Decode Ways</title>
+      <link>/post/decode-ways/</link>
+      <pubDate>Fri, 07 Aug 2020 22:35:40 -0400</pubDate>
+      
+      <guid>/post/decode-ways/</guid>
+      <description>Decode Ways Description A message containing letters from A-Z is being encoded to numbers using the following mapping:</description>
+    </item>
     
     <item>
       <title>Combination Sum IV</title>
