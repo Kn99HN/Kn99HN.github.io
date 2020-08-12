@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2020 22:35:40 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 21:34:56 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unique Paths</title>
+      <link>/post/unique-paths/</link>
+      <pubDate>Tue, 11 Aug 2020 21:34:56 -0400</pubDate>
+      
+      <guid>/post/unique-paths/</guid>
+      <description>Unique Paths Description A robot is located at the top-left corner of a m x n grid (marked &amp;lsquo;Start&amp;rsquo; in the diagram below).</description>
+    </item>
     
     <item>
       <title>Decode Ways</title>

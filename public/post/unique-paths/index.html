@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Khanh Nguyen | Website of Khanh Nguyen </title>
+    <title> Khanh Nguyen | Unique Paths </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="">
     
@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/post/unique-paths/">
     
     
     <script type="text/javascript" src="/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
@@ -60,7 +60,7 @@
         
         
         
-        <li><a class="current" href="/" title="">Home</a></li>
+        <li><a  href="/" title="">Home</a></li>
         
         
         <li><a  href="/post/" title="">Posts</a></li>
@@ -81,87 +81,49 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-  
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/post/cdcl/">CDCL Algorithm</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>Formal Verification I had the fortunate to carry out an independent study with Dr.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Wed, Jun 3, 2020</span>
-                 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/post/summer-plan-2020/">Summer Plan 2020</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>Usually I like to write my To Do on the sticky notes application on Mac.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Tue, Jun 2, 2020</span>
-                 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/post/first/">Welcome! This is my first blog</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>I&rsquo;ll try to write some blogs on this website though it is for my personal use.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Mon, Jun 1, 2020</span>
-                 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-<div class="pagination">
-  
-<ul class="pagination">
-  <li class="page-item">
-    <a href="/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/page/2/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/">1</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/page/2/">2</a>
-  </li>
-  <li class="page-item active">
-    <a class="page-link" href="/page/3/">3</a>
-  </li>
-  <li class="page-item disabled">
-    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-  </li>
-</ul>
+<div class="post animated fadeInDown">
+    <div class="post-content">
 
+      <div class="post-title">
+        <h3>Unique Paths
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Tue, Aug 11, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">2-minute read</span>
+        </div>
+        
+        </div>
 
+    <h1 id="unique-paths">Unique Paths</h1>
+<h2 id="description">Description</h2>
+<p>A robot is located at the top-left corner of a m x n grid (marked &lsquo;Start&rsquo; in the diagram below).</p>
+<p>The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked &lsquo;Finish&rsquo; in the diagram below).</p>
+<p>How many possible unique paths are there?</p>
+<pre><code>Input: m = 3, n = 2
+Output: 3
+Explanation:
+From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
+1. Right -&gt; Right -&gt; Down
+2. Right -&gt; Down -&gt; Right
+3. Down -&gt; Right -&gt; Right
+</code></pre><h2 id="solution">Solution</h2>
+<p>In my opinion, this is a more backtracking problem than a dynamic programming problem. However, it is a DP one because we do have to memoize. We start at <code>x=0</code> and <code>y=0</code>, end at <code>x=m-1</code> and <code>y=n-1</code>. So we will need to check for each step.</p>
+<p>We can either make one step at a time, either down or right. Hence, we advance each x by 1 and y by 1. At the end, if we go out of bound, we are sure the robot is outside of the board. Otherwise, if it reaches the end, it must be a valid path. We then use a dictionary as the cache and key as (x,y).</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
+    
+           
+    
 </div>
+
 
                 </div>
             </div>
