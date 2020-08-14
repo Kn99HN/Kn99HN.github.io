@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2020 21:34:56 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 21:32:45 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Missing X Number</title>
+      <link>/post/missing-x-number/</link>
+      <pubDate>Thu, 13 Aug 2020 21:32:45 -0400</pubDate>
+      
+      <guid>/post/missing-x-number/</guid>
+      <description>Missing Numbers Description We have an array from 1 to N with one number missing, we would like to find the missing number.</description>
+    </item>
+    
+    <item>
+      <title>Jump Game</title>
+      <link>/post/jump-game/</link>
+      <pubDate>Thu, 13 Aug 2020 21:11:33 -0400</pubDate>
+      
+      <guid>/post/jump-game/</guid>
+      <description>Jump Game Description Given an array of non-negative integers, you are initially positioned at the first index of the array.</description>
+    </item>
     
     <item>
       <title>Unique Paths</title>

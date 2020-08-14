@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-08-11T21:34:56-04:00</lastmod>
+    <loc>/post/missing-x-number/</loc>
+    <lastmod>2020-08-13T21:32:45-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/unique-paths/</loc>
-    <lastmod>2020-08-11T21:34:56-04:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2020-08-13T21:32:45-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-08-13T21:32:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/jump-game/</loc>
+    <lastmod>2020-08-13T21:11:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/unique-paths/</loc>
     <lastmod>2020-08-11T21:34:56-04:00</lastmod>
   </url>
   
