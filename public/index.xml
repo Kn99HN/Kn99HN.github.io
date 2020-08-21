@@ -6,10 +6,28 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2020 22:08:41 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2020 13:34:24 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pacific Atlanti Water Flow</title>
+      <link>/post/pacific-water-flow/</link>
+      <pubDate>Fri, 21 Aug 2020 13:34:24 -0400</pubDate>
+      
+      <guid>/post/pacific-water-flow/</guid>
+      <description>Pacific Atlantic Water Flow Description Given an m x n matrix of non-negative integers representing the height of each unit cell in a continent, the &amp;ldquo;Pacific ocean&amp;rdquo; touches the left and top edges of the matrix and the &amp;ldquo;Atlantic ocean&amp;rdquo; touches the right and bottom edges.</description>
+    </item>
+    
+    <item>
+      <title>Number of Islands</title>
+      <link>/post/number-of-islands/</link>
+      <pubDate>Thu, 20 Aug 2020 12:46:36 -0400</pubDate>
+      
+      <guid>/post/number-of-islands/</guid>
+      <description>Number of Islands Description Given a 2d grid map of &amp;lsquo;1&amp;rsquo;s (land) and &amp;lsquo;0&amp;rsquo;s (water), count the number of islands.</description>
+    </item>
     
     <item>
       <title>Course Schedule</title>

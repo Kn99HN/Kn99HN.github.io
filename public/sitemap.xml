@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/course-schedule/</loc>
-    <lastmod>2020-08-18T22:08:41-04:00</lastmod>
+    <loc>/post/pacific-water-flow/</loc>
+    <lastmod>2020-08-21T13:34:24-04:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-08-18T22:08:41-04:00</lastmod>
+    <lastmod>2020-08-21T13:34:24-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-08-21T13:34:24-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/number-of-islands/</loc>
+    <lastmod>2020-08-20T12:46:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/course-schedule/</loc>
     <lastmod>2020-08-18T22:08:41-04:00</lastmod>
   </url>
   
