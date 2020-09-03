@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2020 13:34:24 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2020 21:50:58 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reverse Linked List</title>
+      <link>/post/reverse-linked-list/</link>
+      <pubDate>Wed, 02 Sep 2020 21:50:58 -0400</pubDate>
+      
+      <guid>/post/reverse-linked-list/</guid>
+      <description>Reverse Linked List Description Reverse a singly linked list.
+Solution We use 2 pointers to store prev and curr.</description>
+    </item>
     
     <item>
       <title>Pacific Atlanti Water Flow</title>

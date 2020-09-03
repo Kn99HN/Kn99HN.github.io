@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/pacific-water-flow/</loc>
-    <lastmod>2020-08-21T13:34:24-04:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2020-09-02T21:50:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-08-21T13:34:24-04:00</lastmod>
+    <loc>/post/reverse-linked-list/</loc>
+    <lastmod>2020-09-02T21:50:58-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-09-02T21:50:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/pacific-water-flow/</loc>
     <lastmod>2020-08-21T13:34:24-04:00</lastmod>
   </url>
   
