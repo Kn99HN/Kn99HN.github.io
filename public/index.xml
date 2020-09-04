@@ -6,10 +6,28 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2020 21:50:58 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 21:58:05 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Non Overlapping Interval</title>
+      <link>/post/non-overlapping-interval/</link>
+      <pubDate>Thu, 03 Sep 2020 21:58:05 -0400</pubDate>
+      
+      <guid>/post/non-overlapping-interval/</guid>
+      <description>Non Overlapping Interval Description Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.</description>
+    </item>
+    
+    <item>
+      <title>Merge Intervals</title>
+      <link>/post/merge_intervals/</link>
+      <pubDate>Thu, 03 Sep 2020 14:26:18 -0400</pubDate>
+      
+      <guid>/post/merge_intervals/</guid>
+      <description>Merge Intervals Description Given a collection of intervals, merge all overlapping intervals.</description>
+    </item>
     
     <item>
       <title>Reverse Linked List</title>

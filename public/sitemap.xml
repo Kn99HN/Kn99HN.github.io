@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-09-02T21:50:58-04:00</lastmod>
+    <loc>/post/non-overlapping-interval/</loc>
+    <lastmod>2020-09-03T21:58:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/reverse-linked-list/</loc>
-    <lastmod>2020-09-02T21:50:58-04:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2020-09-03T21:58:05-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-09-03T21:58:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/merge_intervals/</loc>
+    <lastmod>2020-09-03T14:26:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/reverse-linked-list/</loc>
     <lastmod>2020-09-02T21:50:58-04:00</lastmod>
   </url>
   
