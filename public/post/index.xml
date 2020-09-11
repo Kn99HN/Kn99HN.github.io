@@ -6,10 +6,46 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2020 21:58:05 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2020 13:17:34 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Longest Repeating Char Replacement</title>
+      <link>/post/longest-repeating-char-replacement/</link>
+      <pubDate>Fri, 11 Sep 2020 13:17:34 -0400</pubDate>
+      
+      <guid>/post/longest-repeating-char-replacement/</guid>
+      <description>Longest Repeating Character Replacement Description Given a string s that consists of only uppercase English letters, you can perform at most k operations on that string.</description>
+    </item>
+    
+    <item>
+      <title>Longest Substring Without Repeated Chars</title>
+      <link>/post/longest-substring-without-repeated-chars/</link>
+      <pubDate>Wed, 09 Sep 2020 21:39:18 -0400</pubDate>
+      
+      <guid>/post/longest-substring-without-repeated-chars/</guid>
+      <description>Longest Substring Without Repeated Character Description Given a string s, find the length of the longest substring without repeating characters.</description>
+    </item>
+    
+    <item>
+      <title>Set Matrix Zeroes</title>
+      <link>/post/set-matrix-zeroes/</link>
+      <pubDate>Tue, 08 Sep 2020 21:16:16 -0400</pubDate>
+      
+      <guid>/post/set-matrix-zeroes/</guid>
+      <description>Set Matrix Zeroes Description Given an m x n matrix. If an element is 0, set its entire row and column to 0.</description>
+    </item>
+    
+    <item>
+      <title>Merge K sorted lists</title>
+      <link>/post/merge_k_intervals/</link>
+      <pubDate>Sun, 06 Sep 2020 17:44:49 -0400</pubDate>
+      
+      <guid>/post/merge_k_intervals/</guid>
+      <description>Merge K Sorted Lists Description You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.</description>
+    </item>
     
     <item>
       <title>Non Overlapping Interval</title>
