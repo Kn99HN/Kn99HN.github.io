@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/longest-repeating-char-replacement/</loc>
-    <lastmod>2020-09-11T13:17:34-04:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2020-09-14T22:44:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-09-11T13:17:34-04:00</lastmod>
+    <loc>/post/valid-anagram/</loc>
+    <lastmod>2020-09-14T22:44:40-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-09-14T22:44:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/longest-repeating-char-replacement/</loc>
     <lastmod>2020-09-11T13:17:34-04:00</lastmod>
   </url>
   

@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2020 13:17:34 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2020 22:44:40 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Valid Anagram</title>
+      <link>/post/valid-anagram/</link>
+      <pubDate>Mon, 14 Sep 2020 22:44:40 -0400</pubDate>
+      
+      <guid>/post/valid-anagram/</guid>
+      <description>Valid Anagram Given two strings s and t , write a function to determine if t is an anagram of s.</description>
+    </item>
     
     <item>
       <title>Longest Repeating Char Replacement</title>
