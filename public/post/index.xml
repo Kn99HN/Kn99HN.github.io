@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2020 22:57:21 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 22:55:54 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Palindrome Substring</title>
+      <link>/post/palindrome-substring/</link>
+      <pubDate>Wed, 16 Sep 2020 22:55:54 -0400</pubDate>
+      
+      <guid>/post/palindrome-substring/</guid>
+      <description>Palindrome Substring Given a string, your task is to count how many palindromic substrings in this string.</description>
+    </item>
     
     <item>
       <title>Group Anagram</title>
