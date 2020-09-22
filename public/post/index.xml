@@ -6,10 +6,47 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2020 22:55:54 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2020 22:47:44 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Invert Tree</title>
+      <link>/post/invert-tree/</link>
+      <pubDate>Mon, 21 Sep 2020 22:47:44 -0400</pubDate>
+      
+      <guid>/post/invert-tree/</guid>
+      <description>Invert Tree Description Invert a binary tree.
+Solution We recurse on the root node.</description>
+    </item>
+    
+    <item>
+      <title>Same Tree</title>
+      <link>/post/same-tree/</link>
+      <pubDate>Mon, 21 Sep 2020 22:37:04 -0400</pubDate>
+      
+      <guid>/post/same-tree/</guid>
+      <description>Same Tree Description Given two binary trees, write a function to check if they are the same or not.</description>
+    </item>
+    
+    <item>
+      <title>Maximum Depth Binary Tree</title>
+      <link>/post/maximum-depth-binary/</link>
+      <pubDate>Mon, 21 Sep 2020 22:28:19 -0400</pubDate>
+      
+      <guid>/post/maximum-depth-binary/</guid>
+      <description>Maximum Depth Binary Tree Description Given a binary tree, find its maximum depth.</description>
+    </item>
+    
+    <item>
+      <title>Longest Palindromic Substring</title>
+      <link>/post/longest-palindromic-substring/</link>
+      <pubDate>Thu, 17 Sep 2020 22:58:04 -0400</pubDate>
+      
+      <guid>/post/longest-palindromic-substring/</guid>
+      <description>Longest Palindromic Substring Description Given a string s, find the longest palindromic substring in s.</description>
+    </item>
     
     <item>
       <title>Palindrome Substring</title>

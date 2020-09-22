@@ -3,17 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/palindrome-substring/</loc>
-    <lastmod>2020-09-16T22:55:54-04:00</lastmod>
+    <loc>/post/invert-tree/</loc>
+    <lastmod>2020-09-21T22:47:44-04:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-09-16T22:55:54-04:00</lastmod>
+    <lastmod>2020-09-21T22:47:44-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-09-21T22:47:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/same-tree/</loc>
+    <lastmod>2020-09-21T22:37:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/maximum-depth-binary/</loc>
+    <lastmod>2020-09-21T22:28:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/longest-palindromic-substring/</loc>
+    <lastmod>2020-09-17T22:58:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/palindrome-substring/</loc>
     <lastmod>2020-09-16T22:55:54-04:00</lastmod>
   </url>
   
