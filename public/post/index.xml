@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2020 23:46:40 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2020 13:00:45 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Binary Tree From Preorder and Inorder Traversal</title>
+      <link>/post/binary-tree-from-preorder-and-inorder-traversal/</link>
+      <pubDate>Thu, 24 Sep 2020 13:00:45 -0400</pubDate>
+      
+      <guid>/post/binary-tree-from-preorder-and-inorder-traversal/</guid>
+      <description>Construct Binary Tree from Preorder and Inorder Traversal Description Given preorder and inorder traversal of a tree, construct the binary tree.</description>
+    </item>
     
     <item>
       <title>Binary Tree Order Traversal</title>
