@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2020 13:00:45 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2020 18:43:58 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Merge Sorted Array</title>
+      <link>/post/merge-sorted-array/</link>
+      <pubDate>Fri, 25 Sep 2020 18:43:58 -0400</pubDate>
+      
+      <guid>/post/merge-sorted-array/</guid>
+      <description>Merge Sorted Array Description Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.</description>
+    </item>
+    
+    <item>
+      <title>Swap Zeroes</title>
+      <link>/post/swap-zeroes/</link>
+      <pubDate>Fri, 25 Sep 2020 09:39:11 -0400</pubDate>
+      
+      <guid>/post/swap-zeroes/</guid>
+      <description>Swap Zeroes Description Given an array nums, write a function to move all 0&amp;rsquo;s to the end of it while maintaining the relative order of the non-zero elements.</description>
+    </item>
     
     <item>
       <title>Binary Tree From Preorder and Inorder Traversal</title>
