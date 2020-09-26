@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Sep 2020 12:29:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2020 17:28:45 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Partition Labels</title>
+      <link>/post/partition-labels/</link>
+      <pubDate>Sat, 26 Sep 2020 17:28:45 -0400</pubDate>
+      
+      <guid>/post/partition-labels/</guid>
+      <description>Partition Labels Description A string S of lowercase English letters is given.</description>
+    </item>
     
     <item>
       <title>Remove Duplicates in Sorted Array</title>
