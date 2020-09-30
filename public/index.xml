@@ -6,10 +6,28 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2020 09:21:40 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2020 12:54:49 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wiggle Sort</title>
+      <link>/post/wiggle-sort/</link>
+      <pubDate>Wed, 30 Sep 2020 12:54:49 -0400</pubDate>
+      
+      <guid>/post/wiggle-sort/</guid>
+      <description>Wiggle Sort Description Given an unsorted array nums, reorder it in-place such that nums[0] &amp;lt;= nums[1] &amp;gt;= nums[2] &amp;lt;= nums[3]&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Min Move for Knight</title>
+      <link>/post/min-move-for-knight/</link>
+      <pubDate>Wed, 30 Sep 2020 12:43:42 -0400</pubDate>
+      
+      <guid>/post/min-move-for-knight/</guid>
+      <description>Minimum Move For A Knight Description In a finite chess board with coordinates, a knight start an index startRow, startCol.</description>
+    </item>
     
     <item>
       <title>Top K Frequent Elements</title>
