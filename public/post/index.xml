@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2020 12:54:49 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2020 08:47:17 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Integer to Roman</title>
+      <link>/post/integer-to-roman/</link>
+      <pubDate>Fri, 02 Oct 2020 08:47:17 -0400</pubDate>
+      
+      <guid>/post/integer-to-roman/</guid>
+      <description>Integer to Roman Description Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.</description>
+    </item>
+    
+    <item>
+      <title>Sort Colors</title>
+      <link>/post/sort-colors/</link>
+      <pubDate>Fri, 02 Oct 2020 08:40:55 -0400</pubDate>
+      
+      <guid>/post/sort-colors/</guid>
+      <description>Sort Colors Description Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.</description>
+    </item>
     
     <item>
       <title>Wiggle Sort</title>
