@@ -6,10 +6,38 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2020 14:39:34 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2020 23:55:49 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Binary Tree Right Size View</title>
+      <link>/post/binary-tree-right-size-view/</link>
+      <pubDate>Mon, 05 Oct 2020 23:55:49 -0400</pubDate>
+      
+      <guid>/post/binary-tree-right-size-view/</guid>
+      <description>Binary Tree Right Size Description Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.</description>
+    </item>
+    
+    <item>
+      <title>Square Root</title>
+      <link>/post/square-root/</link>
+      <pubDate>Mon, 05 Oct 2020 23:25:54 -0400</pubDate>
+      
+      <guid>/post/square-root/</guid>
+      <description>Square Root Description Implement int sqrt(int x).
+Compute and return the square root of x, where x is guaranteed to be a non-negative integer.</description>
+    </item>
+    
+    <item>
+      <title>Generate Parentheses</title>
+      <link>/post/generate-parentheses/</link>
+      <pubDate>Sun, 04 Oct 2020 23:44:04 -0400</pubDate>
+      
+      <guid>/post/generate-parentheses/</guid>
+      <description>Generate Parantheses Description Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.</description>
+    </item>
     
     <item>
       <title>Combination Sum</title>
