@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2020 22:32:08 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2020 09:36:54 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Find Min in Rotated Sorted Array</title>
+      <link>/post/find-min-in-rotated-sorted-array/</link>
+      <pubDate>Mon, 12 Oct 2020 09:36:54 -0400</pubDate>
+      
+      <guid>/post/find-min-in-rotated-sorted-array/</guid>
+      <description>Find Min in Rotated Sorted Array Description Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.</description>
+    </item>
     
     <item>
       <title>Subarray Sum Equals K</title>
