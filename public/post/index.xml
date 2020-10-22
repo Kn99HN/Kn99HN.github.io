@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2020 21:53:30 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2020 22:18:00 -0400</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Subsets</title>
+      <link>/post/subsets/</link>
+      <pubDate>Wed, 21 Oct 2020 22:18:00 -0400</pubDate>
+      
+      <guid>/post/subsets/</guid>
+      <description>Subsets Description Given a collection of integers that contains unique nums, return all possible subsets (the power set).</description>
+    </item>
     
     <item>
       <title>Permutations</title>
