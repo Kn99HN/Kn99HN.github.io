@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Khanh Nguyen | Website of Khanh Nguyen </title>
+    <title> Khanh Nguyen | Find First and Last Position </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="">
     
@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/post/find-first-and-last-position/">
     
     
     <script type="text/javascript" src="/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
@@ -60,7 +60,7 @@
         
         
         
-        <li><a class="current" href="/" title="">Home</a></li>
+        <li><a  href="/" title="">Home</a></li>
         
         
         <li><a  href="/post/" title="">Posts</a></li>
@@ -81,79 +81,54 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-  
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/post/summer-plan-2020/">Summer Plan 2020</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>Usually I like to write my To Do on the sticky notes application on Mac.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Tue, Jun 2, 2020</span>
-                 
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Find First and Last Position
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Fri, Oct 23, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">1-minute read</span>
         </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/post/first/">Welcome! This is my first blog</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>I&rsquo;ll try to write some blogs on this website though it is for my personal use.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Mon, Jun 1, 2020</span>
-                 
+        
         </div>
-      </div>
-    </div>
-  </div>
-  
-<div class="pagination">
-  
-<ul class="pagination">
-  <li class="page-item">
-    <a href="/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/page/7/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/">1</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/page/2/">2</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/page/3/">3</a>
-  </li>
-  <li class="page-item disabled">
-    <span aria-hidden="true">&nbsp;&hellip;&nbsp;</span>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/page/7/">7</a>
-  </li>
-  <li class="page-item active">
-    <a class="page-link" href="/page/8/">8</a>
-  </li>
-  <li class="page-item disabled">
-    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/page/8/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-  </li>
+
+    <h1 id="find-first-and-last-position-in-sorted-array">Find First and Last Position in Sorted Array</h1>
+<p>Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.</p>
+<p>If target is not found in the array, return [-1, -1].</p>
+<p>Follow up: Could you write an algorithm with O(log n) runtime complexity?</p>
+<pre><code>Input: nums = [5,7,7,8,8,10], target = 8
+Output: [3,4]
+</code></pre><h2 id="solution">Solution</h2>
+<h3 id="naive-approach">Naive Approach</h3>
+<ul>
+<li>Use a <code>hashmap&lt;Integer, List&lt;Integer&gt;&gt;</code>, the value is the indices at which the last values occurs.</li>
+<li>Scan through the array and keep updating the map.</li>
+<li>If target is in the map, find its start and last indices. If not return <code>[-1,-1]</code>.</li>
+</ul>
+<h2 id="modified-binary-search">Modified Binary Search</h2>
+<ul>
+<li>Modifying binary search for our purposes.</li>
+<li>We will find the left and right indices separately.</li>
+<li>For left, if the <code>mid == target</code>, we move high toward mid. We argue that that target can only be on the left hand side of the array.</li>
+<li>For right, if the <code>right == target</code>, we move low toward high. We don&rsquo;t care if it&rsquo;s <code>==</code> or <code>&lt;</code>, we just keep moving low forward. We argue that if target is in the right hand side, by the time <code>low == high</code>, that indicates right index should be <code>high - 1</code>.</li>
 </ul>
 
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
 
+    
+           
+    
 </div>
+
 
                 </div>
             </div>

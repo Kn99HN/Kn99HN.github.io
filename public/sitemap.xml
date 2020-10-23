@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-10-21T22:18:00-04:00</lastmod>
+    <loc>/post/find-first-and-last-position/</loc>
+    <lastmod>2020-10-23T12:40:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/subsets/</loc>
-    <lastmod>2020-10-21T22:18:00-04:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2020-10-23T12:40:29-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-10-23T12:40:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/subsets/</loc>
     <lastmod>2020-10-21T22:18:00-04:00</lastmod>
   </url>
   

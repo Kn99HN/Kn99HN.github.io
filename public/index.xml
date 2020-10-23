@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2020 22:18:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2020 12:40:29 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Find First and Last Position</title>
+      <link>/post/find-first-and-last-position/</link>
+      <pubDate>Fri, 23 Oct 2020 12:40:29 -0400</pubDate>
+      
+      <guid>/post/find-first-and-last-position/</guid>
+      <description>Find First and Last Position in Sorted Array Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.</description>
+    </item>
     
     <item>
       <title>Subsets</title>
