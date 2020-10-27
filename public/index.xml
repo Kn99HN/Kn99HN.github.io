@@ -6,10 +6,19 @@
     <description>Recent content on Website of Khanh Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2020 11:21:25 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2020 11:37:02 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LinkedList Cycle II</title>
+      <link>/post/linkedlist-cycle-ii/</link>
+      <pubDate>Tue, 27 Oct 2020 11:37:02 -0400</pubDate>
+      
+      <guid>/post/linkedlist-cycle-ii/</guid>
+      <description>LinkedList Cycle II Description Given a linked list, return the node where the cycle begins.</description>
+    </item>
     
     <item>
       <title>Find the Duplicate Number</title>
