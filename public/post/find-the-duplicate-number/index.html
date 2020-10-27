@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light"><head>
-    <title> Khanh Nguyen | Website of Khanh Nguyen </title>
+    <title> Khanh Nguyen | Find the Duplicate Number </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="">
     
@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/post/find-the-duplicate-number/">
     
     
     <script type="text/javascript" src="/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
@@ -60,7 +60,7 @@
         
         
         
-        <li><a class="current" href="/" title="">Home</a></li>
+        <li><a  href="/" title="">Home</a></li>
         
         
         <li><a  href="/post/" title="">Posts</a></li>
@@ -81,96 +81,61 @@
 
             <div class="autopagerize_page_element">
                 <div class="content">
-  
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/post/cdcl/">CDCL Algorithm</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>Formal Verification I had the fortunate to carry out an independent study with Dr.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Wed, Jun 3, 2020</span>
-                 
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Find the Duplicate Number
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Tue, Oct 27, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">2-minute read</span>
         </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/post/summer-plan-2020/">Summer Plan 2020</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>Usually I like to write my To Do on the sticky notes application on Mac.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Tue, Jun 2, 2020</span>
-                 
+        
         </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/post/first/">Welcome! This is my first blog</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>I&rsquo;ll try to write some blogs on this website though it is for my personal use.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Mon, Jun 1, 2020</span>
-                 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-<div class="pagination">
-  
-<ul class="pagination">
-  <li class="page-item">
-    <a href="/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/page/7/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/">1</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/page/2/">2</a>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/page/3/">3</a>
-  </li>
-  <li class="page-item disabled">
-    <span aria-hidden="true">&nbsp;&hellip;&nbsp;</span>
-  </li>
-  <li class="page-item">
-    <a class="page-link" href="/page/7/">7</a>
-  </li>
-  <li class="page-item active">
-    <a class="page-link" href="/page/8/">8</a>
-  </li>
-  <li class="page-item disabled">
-    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-  </li>
-  <li class="page-item">
-    <a href="/page/8/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-  </li>
+
+    <h1 id="find-the-dupplicate-number">Find the dupplicate number</h1>
+<h2 id="description">Description</h2>
+<p>Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.</p>
+<p>There is only one duplicate number in nums, return this duplicate number.</p>
+<p>Follow-ups:</p>
+<pre><code>How can we prove that at least one duplicate number must exist in nums? 
+Can you solve the problem without modifying the array nums?
+Can you solve the problem using only constant, O(1) extra space?
+Can you solve the problem with runtime complexity less than O(n2)?
+</code></pre>
+<pre><code>Input: nums = [1,3,4,2,2]
+Output: 2
+</code></pre><h2 id="solution">Solution</h2>
+<p>There are a few that we can solve with:</p>
+<h3 id="first-approach">First Approach</h3>
+<p>Either use a set which takes up more space or modify the array itself.</p>
+<ul>
+<li>We notice that the values is in range [1, n + 1] so we can reuse the values as the indexing for the array.</li>
+<li>Everytime, we will modify <code>nums[nums[i]] to be negative</code>, indicating that the values has been marked as visited.</li>
+<li>If ``nums[nums[i]] &lt; 0`, we know that there is a duplicate and we return the absolute value of it.</li>
+</ul>
+<h3 id="second-approach">Second Approach</h3>
+<p>Using Floyd&rsquo;s algorithm in finding cycle in linkedlist, we can avoid modify the array in place and also keep run time of O(n).</p>
+<ul>
+<li>We have a fast and slow pointer. We will use these 2 to find the intersection point. The fast will move twice as fast as the slow. Eventually, they will come to a stop.</li>
+<li>We reset the speed of slow and fast to be the same. Eventually, we traverse them similarly, then we will get the entrance of the cycle.</li>
 </ul>
 
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
 
+    
+           
+    
 </div>
+
 
                 </div>
             </div>
