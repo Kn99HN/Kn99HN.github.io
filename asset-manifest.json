@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/kn99hn.github.io/static/css/main.0a52a0d8.chunk.css",
-    "main.js": "/kn99hn.github.io/static/js/main.8d64e7a3.chunk.js",
-    "main.js.map": "/kn99hn.github.io/static/js/main.8d64e7a3.chunk.js.map",
-    "runtime-main.js": "/kn99hn.github.io/static/js/runtime-main.7a941630.js",
-    "runtime-main.js.map": "/kn99hn.github.io/static/js/runtime-main.7a941630.js.map",
-    "static/js/2.4ae47e3a.chunk.js": "/kn99hn.github.io/static/js/2.4ae47e3a.chunk.js",
-    "static/js/2.4ae47e3a.chunk.js.map": "/kn99hn.github.io/static/js/2.4ae47e3a.chunk.js.map",
-    "index.html": "/kn99hn.github.io/index.html",
-    "precache-manifest.d510bd402e09a73cc0c4c8bab4b4698d.js": "/kn99hn.github.io/precache-manifest.d510bd402e09a73cc0c4c8bab4b4698d.js",
-    "service-worker.js": "/kn99hn.github.io/service-worker.js",
-    "static/css/main.0a52a0d8.chunk.css.map": "/kn99hn.github.io/static/css/main.0a52a0d8.chunk.css.map",
-    "static/js/2.4ae47e3a.chunk.js.LICENSE.txt": "/kn99hn.github.io/static/js/2.4ae47e3a.chunk.js.LICENSE.txt",
-    "static/media/Khanh_Nguyen_Resume.pdf": "/kn99hn.github.io/static/media/Khanh_Nguyen_Resume.6d0b7f3b.pdf"
+    "main.css": "/static/css/main.0a52a0d8.chunk.css",
+    "main.js": "/static/js/main.3e56bfef.chunk.js",
+    "main.js.map": "/static/js/main.3e56bfef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b81b7a92.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b81b7a92.js.map",
+    "static/js/2.077df3df.chunk.js": "/static/js/2.077df3df.chunk.js",
+    "static/js/2.077df3df.chunk.js.map": "/static/js/2.077df3df.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e5eb03da78413f332b01bafd24016317.js": "/precache-manifest.e5eb03da78413f332b01bafd24016317.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0a52a0d8.chunk.css.map": "/static/css/main.0a52a0d8.chunk.css.map",
+    "static/js/2.077df3df.chunk.js.LICENSE.txt": "/static/js/2.077df3df.chunk.js.LICENSE.txt",
+    "static/media/Khanh_Nguyen_Resume.pdf": "/static/media/Khanh_Nguyen_Resume.6d0b7f3b.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.7a941630.js",
-    "static/js/2.4ae47e3a.chunk.js",
+    "static/js/runtime-main.b81b7a92.js",
+    "static/js/2.077df3df.chunk.js",
     "static/css/main.0a52a0d8.chunk.css",
-    "static/js/main.8d64e7a3.chunk.js"
+    "static/js/main.3e56bfef.chunk.js"
   ]
 }
