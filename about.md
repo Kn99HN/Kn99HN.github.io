@@ -12,4 +12,4 @@ I want to start blogging more, both technical and creative writing so I set up t
 
 Check out my [resume](assets/resume.pdf)
 
-Reach out if you have questions, comments or opportunities: khanhnguyen99hn@gmail.com
+Reach out if you have questions, comments or opportunities: [khanhnguyen99hn@gmail.com]()
