@@ -65,12 +65,12 @@ The 3rd bug came on the last day of my internship. 1 hour before my laptop is sh
 
 Here's the new search bar on the front-end. It looks a lot cooler, init?
 
-![](assets/images/Atlas-Search-Bar.png?raw=true)
+![](https://kn99hn.github.io/assets/images/Atlas-Search-Bar.png?raw=true)
 
 ## Conclusion
 That's a wrap. It was such an incredible opportunity for me to meet others and learn software development from one of the best tech companies. Not only did I progress as a SWE but also a person. I owe my gratitude to Cloud Intel team and my fellow interns, who made it such a memorable event in my life. Here's a photo of us during our last get-together
 
-![](assets/images/MongoDB-interns.JPG?raw=true)
+![](https://kn99hn.github.io/assets/images/MongoDB-interns.JPG?raw=true)
 
 [^1]: It slowly evolves into full in-person since they allow intern to come in 5 days a week.
 
