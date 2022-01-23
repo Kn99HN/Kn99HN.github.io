@@ -10,6 +10,6 @@ I want to start blogging more, both technical and creative writing so I set up t
 
 ## Contact Me
 
-Check out my [resume](assets/resume.pdf)
+Check out my [resume](assets/resume.pdf). My [GitHub](https://GitHub.com/Kn99HN).
 
-Reach out if you have questions, comments or opportunities: [khanhnguyen99hn@gmail.com]()
+Reach out if you have questions, comments or opportunities: [khanhnguyen99hn@gmail.com]().
