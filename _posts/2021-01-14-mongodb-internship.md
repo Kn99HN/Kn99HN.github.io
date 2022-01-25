@@ -91,6 +91,6 @@ That's a wrap. It was such an incredible opportunity for me to meet others and l
 
 [^2]: I also guided people to lots of restaurants, which will be a post of its own.
 
-[^3]: Or atleast that's what he said to make me feel better.
+[^3]: Or at least that's what he said to make me feel better.
 
 
