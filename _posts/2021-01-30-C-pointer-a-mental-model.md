@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C pointer - A Mental Model
+title: Demistifying C pointer - A Mental Model
 ---
 
 C is fun to learn (or at least I think). C pointer is a concept in the language that deals with memory allocation. It's useful on one hand. On the other hand, dynamic allocation on the heap is impossible without pointers.
@@ -34,4 +34,7 @@ int* b = &a;  ->     b [ 0x108 ] 0x116
 int** c = &b; ->     c [ 0x116 ] 0x124
 ```
 
-As you see, each variable declaration is a box with its name, value and memory address drawn on an abstact stack.
+As you see, each variable declaration is a box with its name, value and memory address drawn on an abstact stack. The first declaration is specifying that a is stored on the stack with value 1. Then b will have the address of a, which is 0x108. Subsequently, c will have address of b, which is 0x116.
+
+As we dereference these pointers, we just need to follow the box that it points to. That's all there is to pointers. I think pointers get a lot of bad rep. But it's not a mystery at all. Rather, it's a very intuitive concept!
+
