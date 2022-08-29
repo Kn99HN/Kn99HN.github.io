@@ -22,4 +22,4 @@ I want to start blogging more, both technical and creative writing so I set up t
 
 ## Contact Me
 
-Check out my [resume](assets/resume.pdf). Reach out if you have questions, comments or opportunities: [kh.ng0320@gmail.com]().
+Check out my [resume](assets/resume.pdf). Reach out if you have questions, comments or opportunities: [kh.ng0320@gmail.com](). You can book a chat with me via [Calendly](https://calendly.com/khanhnguyen99hn/30min).
