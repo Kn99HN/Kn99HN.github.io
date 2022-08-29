@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Howdy, I am a recent NYU graduate who studied Computer Science and minor in Math.
+Howdy, I am a SWE at Google based in Seattle. I'm a recent NYU graduate who studied Computer Science and minor in Math.
 
 As a junior, I was an intern at MongoDB on Cloud InTel team, working on providing database metrics to customers. As a sophomore, I was an intern at Orenda, deploying an analytic and energy usage dashboard to the shareholders. 
 
