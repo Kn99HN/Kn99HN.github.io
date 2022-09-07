@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Shedge: A History"
+title: "Schedge: A History"
 
 ---
 
