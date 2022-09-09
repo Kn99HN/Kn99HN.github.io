@@ -10,9 +10,9 @@ As a junior, I was an intern at MongoDB on Cloud InTel team, working on providin
 At NYU, I was the head TA for CS202: Operating Systems, taught by [Dr. Walfish](https://cs.nyu.edu/~mwalfish/). I also worked closely with [Dr. Sivaraman](https://cs.nyu.edu/~anirudh/) on researching distributed tracing, program synthesis and cloud technology.
 
 Outside of school, I am interested in the open source community. I am fortunate to contribute to these amazing projects:
-- [MongoDB Python Driver](pymongo.readthedocs.io/en/stable/contributors.html)
-- [A statically-typed language that compiles to Erlang and JS](github.com/gleam-lang/gleam)
-- [An API for NYU courses](github.com/A1Liu/schedge)
+- [MongoDB Python Driver](https://pymongo.readthedocs.io/en/stable/contributors.html)
+- [A statically-typed language that compiles to Erlang and JS](https://github.com/gleam-lang/gleam)
+- [An API for NYU courses](https://github.com/A1Liu/schedge)
 
 I’m broadly interested in systems-related topics, fullstack development and software usability.
 
