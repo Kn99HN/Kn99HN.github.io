@@ -12,7 +12,7 @@ Though Schedge was sufficient at what it did, Albert, the developer, wasn’t ha
 
 I met Albert at BUGS, NYU’s open-source club. He has so much enthusiasm and energy for the project that it ropes me in. I was a total newbie to coding and open-source projects, but Albert was patient enough to onboard me. Schedge was built entirely around an open-source community. In fact, we chose Java in order to be open source friendly. We made sure to document everything from the setup to running the code. We also hosted weekly events to promote the project. 
 
-I learned a lot from a small open source project like Schedge. We didn’t have 50 contributors, 1000 issues, or 100 open pull requests. We had under 10 developers. All were students.Building an open-source course management system is difficult. It takes time and effort because these contributions are free. In exchange for the experience of working on a project, we asked for the student’s time. Additonally, we didn’t have support from the institution. However, we still learned a lot along the way.
+I learned a lot from a small open source project like Schedge. We didn’t have 50 contributors, 1000 issues, or 100 open pull requests. We had under 10 developers. All were students.   Building an open-source course management system is difficult. It takes time and effort because these contributions are free. In exchange for the experience of working on a project, we asked for the student’s time. Additonally, we didn’t have support from the institution. However, we still learned a lot along the way.
 
 We have a good number of front-ends that utilize Schedge. Schedge was a great attempt at bettering the community using technology. Some of the beautiful front-end work can be found on README.md.
 
