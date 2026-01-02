@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brooklyn Badminton Club - Asia oasis in the Big Apple
+title: Brooklyn Badminton Club
 ---
 
 
