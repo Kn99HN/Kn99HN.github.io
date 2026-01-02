@@ -32,7 +32,10 @@ Club website: https://www.brooklynbadmintoncenter.com
 
 # Final Score
 Light: 6/10
+
 Floor: 7/10
+
 Vibe:  9/10
+
 Cost:  7/10
 
