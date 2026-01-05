@@ -36,7 +36,7 @@ Light: 6/10.
 
 Floor: 7/10.
 
-Vibe:  9/10.
+Vibe:  8/10.
 
 Cost:  7/10.
 
