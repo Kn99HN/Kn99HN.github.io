@@ -3,44 +3,30 @@ layout: post
 title: University of Birmingham - An All England Special
 ---
 
-Badminking is the newest addition to the New York badminton scene. They have 7
-BWF-certified courts. This means that the courts have real wooden floor, covered
-in badminton mats. The mats help absorb the pressure in the legs to prevent
-injuring. No matter how high your clear is, it will never touch the ceiling. The
-club uses non-glaring light, helping you see shots clearly on both sides.
-Additionally, there are ample parking spots outside. 
+After an arduous trip to London, layered with delays, grumpiness and jetlag, I
+arrived for All England semifinal. The games itself were very different compared
+to watching them on TV. The court feels smaller while the players appear to
+cover more grounds on the court. The rally become faster once I have sideway
+view instead of the normal bird eye view that TV often broadcasts in. All of the
+games on Saturday were amazing. Lakshyun Sen cramped at the very last minute but
+he was able to capture the opportunity against the young Victor Lai. Lin, the
+now All England champion, demonstrates why left-hander had an advantage by
+playing tight drops against Kunlavut. The double games came with crayzi enerygy
+from the Malay and Indo pairs. The fans always chanted with each smash, which
+hyped up the stadium during the point.
 
-The court resides in the quieter part of Crown Heights, surrounded by mostly
-warehouses and parking lots. It is accessible by the C train outside of Liberty
-Avenue station.
-
-Eddy, the owner, is very enthusiastic about brining high quality badminton court
-to New York City. You can reserve the court either on CourtReserve or message
-the owner directly. The court features a small shop with birdies, drink and food.
-Eventually, the club plans to have a small section with Yonex rackets.
-
-Court reservation is $80 per hour for 4 people. This is pretty reasonable in New
-York when compared to other clubs in the city. The club also hosts lots of open
-play throughout the week, which cost around $15. The club accepts both cash and
-card payment. Zelle and venmo are not accepted.
-
-Overall, this is the club that makes me most excited about New York badminton
-scene. Hopefully, this would force other clubs to make improvements to compete
-with one another. There are improvements that can be made at both Bkbc and
-Kotofit in LIC. I believe these improvements won't be made until they are forced
-to. Badminking might just be the right one to nudge other clubs in the right
-direction.
+On Sunday, we went to University of Birmingham to play in a Vietnamese group.
+There were 8 wooden courts. The courts are mix-used for badminton, volleyball
+and basketball. Therefore, they are not standard badminton courts. The ceiling,
+however, is incredibly high so there's no glaring and clear hitting the floor.
+The air is cold, which makes the bird goes a bit slower. However, that didn't
+hinder us from having fun. The highlight was the Vietnamese in the group. There
+was a sense of carefree that you don't find in the U.S. My theory is that their
+identities are not tied to work compared to their U.S. counterparts. There is no
+point in working more because more doesn't guarantee more pay. Additionally,
+weekends and PTOs are treated as the holy grail of Europe. I can sense that in
+each and everyone of the brothers there. The court is nothing special but the
+vibe is immaculate
 
 
-Club website: https://app.courtreserve.com/Online/Portal/Index/17495
-
-# Final Score
-
-Light: 9/10.
-
-Floor: 10/10.
-
-Vibe:  8/10.
-
-Cost:  8/10.
 
