@@ -26,7 +26,19 @@ identities are not tied to work compared to their U.S. counterparts. There is no
 point in working more because more doesn't guarantee more pay. Additionally,
 weekends and PTOs are treated as the holy grail of Europe. I can sense that in
 each and everyone of the brothers there. The court is nothing special but the
-vibe is immaculate
+vibe is immaculate with the Vietnamese community. The price for the court per
+person is about the same as in the United States.
+
+![https://kn99hn.github.io/assets/images/uob.jpeg?raw=true](https://kn99hn.github.io/assets/images/uob.jpeg?raw=true)
+
+# Final Score
+Light: 9/10
+
+Floor: 6/10
+
+Vibe: 8/10
+
+Cost: 7/10.
 
 
 
